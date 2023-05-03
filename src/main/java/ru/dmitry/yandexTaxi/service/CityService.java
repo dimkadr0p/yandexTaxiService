@@ -33,6 +33,7 @@ public class CityService {
     }
 
     public Optional<City> findByCoordinates(String coordinates) {
+        log.info("Обращение в базу данных по координатам {}", coordinates);
         return cityRepository.findByCoordinates(coordinates);
     }
 

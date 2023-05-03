@@ -6,8 +6,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.dmitry.yandexTaxi.entity.Trip;
+import ru.dmitry.yandexTaxi.exception.GeocodeNotFoundException;
 import ru.dmitry.yandexTaxi.exception.RouteNotFoundException;
 import ru.dmitry.yandexTaxi.service.YandexTaxiService;
+import ru.dmitry.yandexTaxi.util.GeocodeErrorResponse;
 import ru.dmitry.yandexTaxi.util.RouteErrorResponse;
 
 
@@ -24,7 +26,7 @@ public class YandexController {
 
    @RequestMapping(path = "/{where_from}/{where}", method = RequestMethod.GET)
    public Trip getRoute(@PathVariable String where_from, @PathVariable String where) throws JsonProcessingException {
-       return yandexTaxiService.getRouteStats("Россия, Город Москва, Москва, округ Тверской, 109012, Красная Площадь 3", "Брянск");
+       return yandexTaxiService.getRouteStats(where_from, where);
    }
 
    @ExceptionHandler
@@ -35,6 +37,15 @@ public class YandexController {
         );
         return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
    }
+
+    @ExceptionHandler
+    private ResponseEntity<GeocodeErrorResponse> handleException(GeocodeNotFoundException ex) {
+        GeocodeErrorResponse response = new GeocodeErrorResponse(
+                "Geocode not found",
+                System.currentTimeMillis()
+        );
+        return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
+    }
 
 }
 

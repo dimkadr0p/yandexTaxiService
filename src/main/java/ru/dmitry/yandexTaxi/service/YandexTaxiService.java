@@ -57,12 +57,12 @@ public final class YandexTaxiService {
         JsonNode jsonNode = objectMapper.readTree(resp);
         String distance = jsonNode.get("distance").asText();
         String time = jsonNode.get("time").asText();
-        //TODO::Убрать ".," в строке price
-        String price = jsonNode.get("service_levels").get(0).get("description").asText().split(" ")[1];
+        String price = jsonNode.get("service_levels").get(0).get("description").asText().split(".,")[0];
 
         return Trip.builder().
                 distance(distance).time(time).
                 price(price).build();
     }
+
 
 }

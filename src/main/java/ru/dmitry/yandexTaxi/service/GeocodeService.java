@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import ru.dmitry.yandexTaxi.entity.City;
+import ru.dmitry.yandexTaxi.exception.GeocodeNotFoundException;
 
 import java.util.Optional;
 
@@ -36,9 +37,14 @@ public class GeocodeService {
 
         JsonNode resp = requestByGetCoordinate(location);
 
-        String nameCity = resp.get("response").get("GeoObjectCollection")
-                .get("metaDataProperty").get("GeocoderResponseMetaData")
-                .get("request").asText();
+        JsonNode jsonNode = resp.get("response").get("GeoObjectCollection")
+                .get("metaDataProperty").get("GeocoderResponseMetaData");
+
+        checkFoundGeocode(jsonNode, location);
+
+        System.out.println("Ку");
+
+        String nameCity = jsonNode.get("request").asText();
 
         String coordinates = resp.get("response").get("GeoObjectCollection")
                 .get("featureMember").get(0)
@@ -46,9 +52,8 @@ public class GeocodeService {
                 .get("pos").asText()
                 .replaceAll("\"", "");
 
-        cityLocation = cityService.findByCoordinates(coordinates);
-        return cityLocation.orElseGet(() -> cityService.create(nameCity, coordinates));
 
+        return cityService.create(nameCity, coordinates);
     }
 
 
@@ -56,13 +61,18 @@ public class GeocodeService {
 
         String url = "https://geocode-maps.yandex.ru/1.x/?format=json&apikey=" + ApiKey + "&geocode=" + location;
 
-        //TODO::Обработать исключение
         String responseEntity = restTemplate.getForObject(url, String.class);
 
         ObjectMapper objectMapper = new ObjectMapper();
 
-
         return objectMapper.readTree(responseEntity);
+    }
+
+    private void checkFoundGeocode(JsonNode jsonNode, String location) {
+        if (jsonNode.get("found").asText().equals("0")) {
+            log.error("Not found Geocode for {}", location);
+            throw new GeocodeNotFoundException("Not found Geocode");
+        }
     }
 
 }

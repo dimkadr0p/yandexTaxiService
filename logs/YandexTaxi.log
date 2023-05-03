@@ -1,37 +1,1142 @@
-2023-04-28 22:20:46,112 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 17700 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
-2023-04-28 22:20:46,117 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-04-28 22:20:47,567 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2023-04-28 22:20:47,583 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
-2023-04-28 22:20:47,584 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2023-04-28 22:20:47,585 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
-2023-04-28 22:20:47,714 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2023-04-28 22:20:47,714 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1521 ms
-2023-04-28 22:20:48,235 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2023-04-28 22:20:48,309 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
-2023-04-28 22:20:48,372 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-28 22:20:48,394 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 2.822 seconds (JVM running for 3.83)
-2023-04-28 22:20:48,429 INFO ru.dmitry.yandexTaxi.service.YandexTaxiService [main] Пользователь хочет узнать расстояние от Людиново до Брянск
-2023-04-28 22:57:16,751 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 12240 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
-2023-04-28 22:57:16,755 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-04-28 22:57:18,401 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2023-04-28 22:57:18,441 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
-2023-04-28 22:57:18,441 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2023-04-28 22:57:18,444 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
-2023-04-28 22:57:18,766 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2023-04-28 22:57:18,766 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1928 ms
-2023-04-28 22:57:19,395 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2023-04-28 22:57:19,451 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
-2023-04-28 22:57:19,486 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-28 22:57:19,503 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 3.462 seconds (JVM running for 4.554)
-2023-04-28 22:57:40,695 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 6204 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
-2023-04-28 22:57:40,700 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
-2023-04-28 22:57:42,222 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
-2023-04-28 22:57:42,238 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
-2023-04-28 22:57:42,239 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2023-04-28 22:57:42,239 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
-2023-04-28 22:57:42,380 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2023-04-28 22:57:42,380 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1602 ms
-2023-04-28 22:57:42,913 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2023-04-28 22:57:42,961 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
-2023-04-28 22:57:42,994 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-28 22:57:43,008 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 2.923 seconds (JVM running for 3.689)
+2023-05-03 20:40:24,150 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 6180 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 20:40:24,168 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 20:40:25,334 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 20:40:25,434 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-05-03 20:40:26,617 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 20:40:26,651 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:40:26,652 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 20:40:26,653 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 20:40:26,839 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 20:40:26,840 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2535 ms
+2023-05-03 20:40:27,179 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 20:40:27,232 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 20:40:27,450 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 20:40:27,595 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 20:40:28,132 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 20:40:28,154 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 20:40:29,129 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 20:40:29,141 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:40:30,172 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:40:30,215 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 20:40:30,231 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 6.706 seconds (JVM running for 7.625)
+2023-05-03 20:40:30,689 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:40:30,689 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 20:40:30,715 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 20:40:57,595 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 1540 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 20:40:57,602 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 20:40:58,713 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 20:40:58,802 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2023-05-03 20:40:59,968 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 20:40:59,981 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:40:59,982 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 20:40:59,983 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 20:41:00,143 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 20:41:00,144 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2441 ms
+2023-05-03 20:41:00,428 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 20:41:00,498 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 20:41:00,739 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 20:41:00,853 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 20:41:01,198 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 20:41:01,239 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 20:41:02,788 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 20:41:02,802 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:41:04,533 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:41:04,590 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 20:41:04,618 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 7.629 seconds (JVM running for 8.562)
+2023-05-03 20:41:27,271 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 20:41:27,272 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Initializing Servlet 'dispatcherServlet'
+2023-05-03 20:41:27,278 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-5] Completed initialization in 5 ms
+2023-05-03 20:41:27,401 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Людиново
+2023-05-03 20:41:27,730 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск
+2023-05-03 20:42:06,820 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Людиново
+2023-05-03 20:42:06,825 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск
+2023-05-03 20:42:08,718 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Людиново
+2023-05-03 20:42:08,718 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск
+2023-05-03 20:42:10,306 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Людиново
+2023-05-03 20:42:10,310 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск
+2023-05-03 20:42:15,167 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Людиново
+2023-05-03 20:42:15,170 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск
+2023-05-03 20:42:16,668 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Людиново
+2023-05-03 20:42:16,671 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск
+2023-05-03 20:47:19,812 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:47:19,815 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 20:47:19,830 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 20:47:27,227 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 14696 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 20:47:27,235 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 20:47:28,609 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 20:47:28,698 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-05-03 20:47:29,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 20:47:29,764 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:47:29,765 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 20:47:29,766 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 20:47:29,956 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 20:47:29,956 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2474 ms
+2023-05-03 20:47:30,352 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 20:47:30,561 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 20:47:30,921 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 20:47:31,060 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 20:47:31,410 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 20:47:31,438 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 20:47:32,530 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 20:47:32,541 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:47:33,495 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:47:33,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 20:47:33,553 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 7.004 seconds (JVM running for 7.864)
+2023-05-03 20:47:53,424 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 20:47:53,424 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 20:47:53,424 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-05-03 20:47:53,560 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Людиново
+2023-05-03 20:47:53,923 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск
+2023-05-03 20:48:52,352 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:48:52,357 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 20:48:52,379 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 20:48:59,504 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 14664 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 20:48:59,511 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 20:49:00,568 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 20:49:00,685 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+2023-05-03 20:49:01,679 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 20:49:01,692 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:49:01,693 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 20:49:01,694 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 20:49:01,886 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 20:49:01,887 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2274 ms
+2023-05-03 20:49:02,221 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 20:49:02,286 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 20:49:02,490 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 20:49:02,609 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 20:49:02,987 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 20:49:03,014 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 20:49:03,957 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 20:49:03,967 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:49:05,097 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:49:05,126 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 20:49:05,140 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 6.201 seconds (JVM running for 7.102)
+2023-05-03 20:49:08,243 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 20:49:08,243 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 20:49:08,243 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-05-03 20:49:08,342 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Людиново
+2023-05-03 20:49:08,657 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск
+2023-05-03 20:49:21,489 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:49:21,493 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 20:49:21,505 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 20:49:27,774 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 9908 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 20:49:27,780 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 20:49:28,930 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 20:49:29,014 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-05-03 20:49:29,959 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 20:49:29,974 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:49:29,976 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 20:49:29,976 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 20:49:30,177 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 20:49:30,178 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2283 ms
+2023-05-03 20:49:30,490 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 20:49:30,545 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 20:49:30,784 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 20:49:30,917 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 20:49:31,222 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 20:49:31,247 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 20:49:32,404 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 20:49:32,417 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 20:49:33,931 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 20:49:33,969 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 20:49:33,996 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 6.798 seconds (JVM running for 7.592)
+2023-05-03 20:49:34,342 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 20:49:34,342 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 20:49:34,348 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2023-05-03 20:49:34,438 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Людиново
+2023-05-03 20:49:34,714 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск
+2023-05-03 20:50:07,305 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Людиново
+2023-05-03 20:50:07,310 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск
+2023-05-03 21:00:21,642 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:00:21,647 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 21:00:21,660 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 21:00:54,492 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 9476 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 21:00:54,498 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 21:00:55,585 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 21:00:55,668 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2023-05-03 21:00:56,613 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 21:00:56,628 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:00:56,629 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 21:00:56,630 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 21:00:56,800 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 21:00:56,801 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2218 ms
+2023-05-03 21:00:57,109 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 21:00:57,171 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 21:00:57,600 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 21:00:57,816 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 21:00:58,200 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 21:00:58,219 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 21:00:59,121 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 21:00:59,132 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:01:00,184 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:01:00,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 21:01:00,230 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 6.327 seconds (JVM running for 7.13)
+2023-05-03 21:01:39,683 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 21:01:39,685 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 21:01:39,688 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-05-03 21:01:39,810 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 21:01:40,111 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, аэропарк
+2023-05-03 21:01:41,928 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Создание нового адреса в базу данных с адресом Брянск, аэропарк и координатами 34.363991 53.2434
+2023-05-03 21:01:42,145 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-1] SQL Error: 0, SQLState: 23505
+2023-05-03 21:01:42,145 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-1] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_8keokh9jn4pqa9pbifgguo870"
+  Подробности: Ключ "(coordinates)=(34.363991 53.2434)" уже существует.
+2023-05-03 21:01:42,156 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-1] HHH000010: On release of batch it still contained JDBC statements
+2023-05-03 21:01:42,192 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_8keokh9jn4pqa9pbifgguo870"
+  Подробности: Ключ "(coordinates)=(34.363991 53.2434)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3908)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy97.save(Unknown Source)
+	at ru.dmitry.yandexTaxi.service.CityService.create(CityService.java:26)
+	at ru.dmitry.yandexTaxi.service.GeocodeService.getGeocodeCoordinates(GeocodeService.java:50)
+	at ru.dmitry.yandexTaxi.service.YandexTaxiService.getRouteStats(YandexTaxiService.java:39)
+	at ru.dmitry.yandexTaxi.contoller.YandexController.getRoute(YandexController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-03 21:02:16,875 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:02:16,882 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 21:02:16,901 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 21:02:23,265 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 320 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 21:02:23,270 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 21:02:24,248 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 21:02:24,325 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2023-05-03 21:02:25,204 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 21:02:25,221 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:02:25,222 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 21:02:25,223 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 21:02:25,414 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 21:02:25,415 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2057 ms
+2023-05-03 21:02:25,729 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 21:02:25,794 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 21:02:26,035 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 21:02:26,163 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 21:02:26,791 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 21:02:26,810 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 21:02:27,626 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 21:02:27,631 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:02:28,626 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:02:28,653 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 21:02:28,665 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 5.993 seconds (JVM running for 6.832)
+2023-05-03 21:02:35,604 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 21:02:35,604 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 21:02:35,604 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-05-03 21:02:35,737 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 21:02:36,117 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, аэропарк
+2023-05-03 21:03:40,689 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:03:41,075 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, аэропарк
+2023-05-03 21:04:08,665 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:04:09,008 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, 30
+2023-05-03 21:04:18,698 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:04:19,053 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, 20
+2023-05-03 21:04:36,066 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:04:36,388 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, 60
+2023-05-03 21:04:58,965 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Людиново
+2023-05-03 21:04:58,969 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Москва
+2023-05-03 21:04:59,268 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Создание нового адреса в базу данных с адресом Москва и координатами 37.617698 55.755864
+2023-05-03 21:05:24,937 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:05:24,942 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 21:05:24,949 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 21:07:33,135 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 11708 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 21:07:33,140 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 21:07:34,044 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 21:07:34,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2023-05-03 21:07:34,862 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 21:07:34,878 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:07:34,878 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 21:07:34,879 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 21:07:35,026 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 21:07:35,026 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1804 ms
+2023-05-03 21:07:35,276 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 21:07:35,344 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 21:07:35,566 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 21:07:35,673 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 21:07:36,088 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 21:07:36,111 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 21:07:36,833 ERROR org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [city]
+2023-05-03 21:07:36,835 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [city]
+2023-05-03 21:07:36,835 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-05-03 21:07:36,882 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-05-03 21:07:36,884 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2023-05-03 21:07:36,896 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-03 21:07:36,921 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [city]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at ru.dmitry.yandexTaxi.YandexTaxiApplication.main(YandexTaxiApplication.java:13)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [city]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [city]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:129)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:42)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:204)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+2023-05-03 21:07:52,203 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 12772 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 21:07:52,208 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 21:07:52,959 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 21:07:53,015 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2023-05-03 21:07:53,696 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 21:07:53,708 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:07:53,708 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 21:07:53,709 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 21:07:53,864 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 21:07:53,865 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1578 ms
+2023-05-03 21:07:54,099 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 21:07:54,153 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 21:07:54,320 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 21:07:54,422 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 21:07:54,638 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 21:07:54,656 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 21:07:55,345 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 21:07:55,353 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:07:56,087 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:07:56,109 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 21:07:56,119 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.365 seconds (JVM running for 5.038)
+2023-05-03 21:08:34,946 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 21:08:34,947 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 21:08:34,951 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-05-03 21:08:35,042 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:08:36,287 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Создание нового адреса в базу данных с адресом Брянск, Харьковская улица, 12 и координатами 34.304963 53.302607
+2023-05-03 21:08:36,380 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, 60
+2023-05-03 21:08:36,598 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Создание нового адреса в базу данных с адресом Брянск, Торговый центр · Объездная улица, 60 и координатами 34.363991 53.2434
+2023-05-03 21:09:23,322 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:09:23,337 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, 60
+2023-05-03 21:09:30,201 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:09:30,204 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, 60
+2023-05-03 21:24:09,963 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская улица, д. 12
+2023-05-03 21:24:10,849 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица, д. 60
+2023-05-03 21:28:06,568 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская улица+12
+2023-05-03 21:28:06,948 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица+60
+2023-05-03 21:28:56,510 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская улица+11
+2023-05-03 21:28:56,931 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Создание нового адреса в базу данных с адресом Брянск, Харьковская улица 11 и координатами 34.306409 53.303581
+2023-05-03 21:28:56,987 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Торговый центр · Объездная улица+60
+2023-05-03 21:42:19,905 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:42:19,951 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 21:42:19,981 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 21:45:09,346 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 14772 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 21:45:09,349 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 21:45:10,159 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 21:45:10,215 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-05-03 21:45:10,938 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 21:45:10,952 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:45:10,953 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 21:45:10,953 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 21:45:11,064 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 21:45:11,064 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1646 ms
+2023-05-03 21:45:11,277 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 21:45:11,336 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 21:45:11,550 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 21:45:11,660 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 21:45:12,012 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 21:45:12,032 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 21:45:12,720 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 21:45:12,724 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 21:45:13,405 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 21:45:13,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 21:45:13,441 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.604 seconds (JVM running for 5.264)
+2023-05-03 21:45:19,145 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 21:45:19,146 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 21:45:19,147 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-05-03 21:45:19,189 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Харьковская улица, 12
+2023-05-03 21:45:20,212 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Создание нового адреса в базу данных с адресом Харьковская улица, 12 и координатами 34.810535 50.902875
+2023-05-03 21:45:20,265 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Аэро Парк
+2023-05-03 21:45:20,422 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Создание нового адреса в базу данных с адресом Аэро Парк и координатами -88.159692 43.108303
+2023-05-03 21:45:20,807 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "{}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "{}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:437)
+	at ru.dmitry.yandexTaxi.service.YandexTaxiService.getRouteStats(YandexTaxiService.java:47)
+	at ru.dmitry.yandexTaxi.contoller.YandexController.getRoute(YandexController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-03 21:45:58,343 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская улица, 12
+2023-05-03 21:45:58,353 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Аэро Парк
+2023-05-03 21:45:58,735 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Создание нового адреса в базу данных с адресом Брянск, Аэро Парк и координатами 34.363991 53.2434
+2023-05-03 21:46:18,966 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Бум сити
+2023-05-03 21:46:19,299 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Создание нового адреса в базу данных с адресом Брянск, Бум сити и координатами 34.343186 53.264955
+2023-05-03 21:46:19,304 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Переулок Металлистов 9
+2023-05-03 21:46:19,457 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Создание нового адреса в базу данных с адресом Брянск, Переулок Металлистов 9 и координатами 34.282568 53.305927
+2023-05-03 21:46:53,274 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 21:46:53,592 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Создание нового адреса в базу данных с адресом Брянск, Харьковская 12 и координатами 34.304963 53.302607
+2023-05-03 21:46:53,596 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, пер. Металлистов, 9
+2023-05-03 21:46:53,725 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Создание нового адреса в базу данных с адресом Брянск, пер. Металлистов, 9 и координатами 34.282568 53.305927
+2023-05-03 22:24:15,545 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:24:15,577 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:24:15,587 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:24:21,511 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 5532 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:24:21,514 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:24:22,585 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:24:22,643 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:24:23,272 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:24:23,285 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:24:23,285 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:24:23,285 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:24:23,414 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:24:23,414 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1848 ms
+2023-05-03 22:24:23,773 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:24:23,823 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:24:24,043 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:24:24,141 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:24:24,368 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:24:24,384 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:24:25,010 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:24:25,019 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:24:25,797 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:24:25,817 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:24:25,828 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 5.114 seconds (JVM running for 5.747)
+2023-05-03 22:24:38,532 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:24:38,532 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:24:38,534 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-05-03 22:24:38,588 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу 0
+2023-05-03 22:24:39,455 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-1] Not found Geocode for 0
+2023-05-03 22:24:39,459 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is ru.dmitry.yandexTaxi.exception.GeocodeNotFoundException: Not found Geocode for0] with root cause
+ru.dmitry.yandexTaxi.exception.GeocodeNotFoundException: Not found Geocode for0
+	at ru.dmitry.yandexTaxi.service.GeocodeService.checkFoundGeocode(GeocodeService.java:74)
+	at ru.dmitry.yandexTaxi.service.GeocodeService.getGeocodeCoordinates(GeocodeService.java:43)
+	at ru.dmitry.yandexTaxi.service.YandexTaxiService.getRouteStats(YandexTaxiService.java:38)
+	at ru.dmitry.yandexTaxi.contoller.YandexController.getRoute(YandexController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-03 22:27:15,671 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:27:15,676 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:27:15,684 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:29:03,387 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 2600 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:29:03,389 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:29:04,076 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:29:04,126 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:29:04,728 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:29:04,739 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:29:04,740 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:29:04,740 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:29:04,852 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:29:04,852 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1413 ms
+2023-05-03 22:29:05,060 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:29:05,115 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:29:05,294 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:29:05,397 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:29:05,590 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:29:05,607 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:29:06,237 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:29:06,247 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:29:07,294 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:29:07,322 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:29:07,332 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.38 seconds (JVM running for 5.057)
+2023-05-03 22:30:50,013 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:30:50,013 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:30:50,013 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 0 ms
+2023-05-03 22:30:50,094 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:30:51,109 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Создание нового адреса в базу данных с адресом Брянск-Орловский и координатами 34.40632 53.262353
+2023-05-03 22:30:51,186 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:43,033 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:43,036 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:44,324 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:44,328 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:45,932 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:45,934 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:47,266 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:47,269 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:48,663 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:48,665 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:49,821 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:49,824 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:51,651 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:51,654 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:53,715 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:53,718 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:54,713 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:54,715 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:32:58,921 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:32:58,923 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:05,486 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:05,488 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:48,019 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:48,022 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:49,869 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:49,871 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:50,954 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:50,956 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:52,704 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:52,706 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:54,085 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:54,088 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:55,172 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:55,175 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:33:56,369 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:33:56,372 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:00,485 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:00,487 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:02,549 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:02,552 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:03,881 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:03,884 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:04,987 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:04,990 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:06,011 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:06,013 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:11,409 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:11,411 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:13,130 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:13,132 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:14,424 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:14,427 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:15,366 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:15,370 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:17,408 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:17,410 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:18,536 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:18,538 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:20,179 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:20,182 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:25,787 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:25,789 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:28,022 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:28,031 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:28,860 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:28,862 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:29,465 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:29,467 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:29,856 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:29,858 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:30,238 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:30,240 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:30,628 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:30,629 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:31,036 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:31,038 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:31,438 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:31,443 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:31,832 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:31,833 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:32,200 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:32,202 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:32,563 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:32,565 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:32,929 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:32,931 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:34:37,361 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:34:37,363 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-10] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:36:47,693 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:36:47,695 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:36:48,990 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:36:48,993 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:36:50,039 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:36:50,041 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:36:51,687 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:36:51,689 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:36:52,722 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:36:52,725 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:36:53,708 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:36:53,710 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:38:00,012 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:38:00,014 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:38:04,909 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:38:04,911 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:38:06,368 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:38:06,369 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:39:00,360 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:39:00,362 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:39:01,566 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:39:01,568 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-7] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:39:03,579 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:39:03,581 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-8] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:39:04,654 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:39:04,657 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-9] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:40:11,775 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:40:11,778 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-3] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:40:13,647 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:40:13,649 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:40:15,045 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:40:15,047 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-4] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:40:16,550 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:40:16,552 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:40:19,315 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:40:19,317 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-5] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:40:23,317 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск-Орловский
+2023-05-03 22:40:23,320 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-6] Обращение в базу данных по адресу Брянск, Харьковская 12
+2023-05-03 22:43:53,229 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:43:53,234 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:43:53,240 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:43:58,084 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 12452 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:43:58,087 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:43:58,768 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:43:58,817 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:43:59,467 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:43:59,596 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1455 ms
+2023-05-03 22:43:59,807 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:43:59,874 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:44:00,103 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:44:00,190 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:44:00,387 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:44:00,403 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:44:01,021 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:44:01,027 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:44:01,755 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:44:01,767 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.061 seconds (JVM running for 4.626)
+2023-05-03 22:44:01,785 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:44:01,786 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:44:01,789 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:45:48,237 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 8860 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:45:48,240 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:45:48,963 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:45:49,023 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:45:49,927 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:45:49,938 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:45:49,938 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:45:49,938 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:45:50,147 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:45:50,147 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1854 ms
+2023-05-03 22:45:50,419 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:45:50,486 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:45:50,643 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:45:50,722 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:45:50,896 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:45:50,912 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:45:51,558 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:45:51,567 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:45:52,334 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:45:52,355 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:45:52,364 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.553 seconds (JVM running for 5.447)
+2023-05-03 22:45:59,482 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:45:59,482 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:45:59,483 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-05-03 22:45:59,534 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу 0
+2023-05-03 22:46:00,574 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-1] Not found Geocode for 0
+2023-05-03 22:46:00,582 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-1] Failure in @ExceptionHandler ru.dmitry.yandexTaxi.contoller.YandexController#handleException(GeocodeNotFoundException)
+java.lang.IllegalArgumentException: No enum constant org.springframework.http.HttpStatus.Какой любо из веденных вами адресов не существует
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at org.springframework.http.HttpStatus.valueOf(HttpStatus.java:34)
+	at ru.dmitry.yandexTaxi.contoller.YandexController.handleException(YandexController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1331)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-03 22:46:00,586 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is ru.dmitry.yandexTaxi.exception.GeocodeNotFoundException: Not found Geocode] with root cause
+ru.dmitry.yandexTaxi.exception.GeocodeNotFoundException: Not found Geocode
+	at ru.dmitry.yandexTaxi.service.GeocodeService.checkFoundGeocode(GeocodeService.java:72)
+	at ru.dmitry.yandexTaxi.service.GeocodeService.getGeocodeCoordinates(GeocodeService.java:43)
+	at ru.dmitry.yandexTaxi.service.YandexTaxiService.getRouteStats(YandexTaxiService.java:38)
+	at ru.dmitry.yandexTaxi.contoller.YandexController.getRoute(YandexController.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-03 22:47:01,731 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:47:01,734 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:47:01,738 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:47:06,119 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 13996 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:47:06,124 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:47:06,889 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:47:06,942 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:47:07,563 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:47:07,573 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:47:07,573 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:47:07,574 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:47:07,681 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:47:07,682 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1500 ms
+2023-05-03 22:47:07,858 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:47:07,910 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:47:08,043 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:47:08,131 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:47:08,311 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:47:08,327 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:47:09,064 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:47:09,072 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:47:09,828 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:47:09,851 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:47:09,863 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.163 seconds (JVM running for 4.729)
+2023-05-03 22:47:54,553 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:47:54,553 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:47:54,558 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2023-05-03 22:47:54,599 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу 0
+2023-05-03 22:47:55,414 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-1] Not found Geocode for 0
+2023-05-03 22:49:17,121 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:49:17,126 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:49:17,133 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:49:21,064 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 14744 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:49:21,067 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:49:21,701 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:49:21,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:49:22,322 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:49:22,331 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:49:22,331 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:49:22,331 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:49:22,448 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:49:22,448 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1331 ms
+2023-05-03 22:49:22,769 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:49:22,804 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:49:22,935 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:49:23,007 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:49:23,384 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:49:23,411 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:49:23,973 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:49:23,980 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:49:24,658 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:49:24,676 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:49:24,685 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 3.975 seconds (JVM running for 4.54)
+2023-05-03 22:49:29,318 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:49:29,318 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:49:29,318 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-05-03 22:49:29,355 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу 0
+2023-05-03 22:49:30,051 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-1] Not found Geocode for 0
+2023-05-03 22:50:05,808 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:50:05,811 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:50:05,821 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:50:09,813 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 10124 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:50:09,816 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:50:10,685 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:50:10,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:50:11,326 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:50:11,333 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:50:11,335 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:50:11,335 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:50:11,446 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:50:11,446 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1579 ms
+2023-05-03 22:50:11,655 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:50:11,696 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:50:11,832 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:50:11,917 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:50:12,240 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:50:12,255 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:50:12,834 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:50:12,842 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:50:13,472 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:50:13,495 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:50:13,506 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.075 seconds (JVM running for 4.588)
+2023-05-03 22:50:17,692 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:50:17,692 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:50:17,693 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-05-03 22:50:17,726 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу 0
+2023-05-03 22:50:18,527 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-1] Not found Geocode for 0
+2023-05-03 22:50:38,830 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:50:38,832 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:50:38,841 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:50:42,831 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 6844 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:50:42,834 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:50:43,538 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:50:43,591 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:50:44,262 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:50:44,268 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:50:44,272 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:50:44,272 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:50:44,376 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:50:44,377 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1487 ms
+2023-05-03 22:50:44,610 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:50:44,653 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:50:44,788 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:50:44,871 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:50:45,038 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:50:45,051 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:50:45,811 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:50:45,819 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:50:46,485 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:50:46,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:50:46,521 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 4.18 seconds (JVM running for 4.674)
+2023-05-03 22:50:51,831 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:50:51,831 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:50:51,832 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-05-03 22:50:51,871 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу 0
+2023-05-03 22:50:52,484 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.get(String)" because the return value of "com.fasterxml.jackson.databind.JsonNode.get(int)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.get(String)" because the return value of "com.fasterxml.jackson.databind.JsonNode.get(int)" is null
+	at ru.dmitry.yandexTaxi.service.GeocodeService.getGeocodeCoordinates(GeocodeService.java:51)
+	at ru.dmitry.yandexTaxi.service.YandexTaxiService.getRouteStats(YandexTaxiService.java:38)
+	at ru.dmitry.yandexTaxi.contoller.YandexController.getRoute(YandexController.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-03 22:52:35,913 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:52:35,914 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:52:35,918 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-05-03 22:53:33,421 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Starting YandexTaxiApplication using Java 17.0.2 on LAPTOP-OUHQC63F with PID 2088 (D:\YandexTaxiBackend\yandexTaxiService\target\classes started by dmitr in D:\YandexTaxiBackend\yandexTaxiService)
+2023-05-03 22:53:33,427 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-03 22:53:34,122 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 22:53:34,173 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-05-03 22:53:34,821 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-05-03 22:53:34,830 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:53:34,831 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-05-03 22:53:34,831 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-03 22:53:34,938 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-05-03 22:53:34,939 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1446 ms
+2023-05-03 22:53:35,129 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 22:53:35,176 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-05-03 22:53:35,325 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 22:53:35,428 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-03 22:53:35,598 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-03 22:53:35,615 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-03 22:53:36,197 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 22:53:36,207 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:53:36,952 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-03 22:53:36,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 22:53:36,982 INFO ru.dmitry.yandexTaxi.YandexTaxiApplication [main] Started YandexTaxiApplication in 3.939 seconds (JVM running for 4.657)
+2023-05-03 22:53:52,170 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 22:53:52,171 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-05-03 22:53:52,171 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-05-03 22:53:52,210 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-1] Обращение в базу данных по адресу 0
+2023-05-03 22:53:52,988 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-1] Not found Geocode for 0
+2023-05-03 22:54:03,520 INFO ru.dmitry.yandexTaxi.service.CityService [http-nio-8080-exec-2] Обращение в базу данных по адресу 0
+2023-05-03 22:54:03,843 ERROR ru.dmitry.yandexTaxi.service.GeocodeService [http-nio-8080-exec-2] Not found Geocode for 0
+2023-05-03 22:55:42,815 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 22:55:42,816 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-03 22:55:42,827 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
