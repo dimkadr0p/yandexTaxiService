@@ -1,4 +1,5 @@
-package ru.dmitry.yandexTaxi.entity;
+package ru.dmitry.yandexTaxi.util;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +10,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class RideParameter {
-    private String distance;
-    private String time;
-    private String price;
+public class RouteErrorResponse {
+    private String message;
+    private long timestamp;
 }
